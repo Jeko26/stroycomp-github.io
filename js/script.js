@@ -1,11 +1,13 @@
-const swiper = new Swiper('.swiper-container', {
-    // Optional parameters
-    loop: true,
-    effect: 'slide',
-
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-  });
+var swiper = new Swiper(".mySwiper", {
+  cssMode: true,
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  mousewheel: true,
+  keyboard: true,
+});
