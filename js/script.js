@@ -10,4 +10,8 @@ var swiper = new Swiper(".mySwiper", {
   },
   mousewheel: true,
   keyboard: true,
+  slidesPerGroup: 3
 });
+
+$(".accordion").accordion();
+$(".accordion").accordion({ heightStyle: "content" });
